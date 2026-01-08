@@ -1,0 +1,45 @@
+body {
+  background-color: #f0f0f0; /* light grey */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.shopping-cart {
+  background-color: #b3b3b3; /* darker grey */
+  width: 300px; /* square size */
+  margin: 10px;
+  text-align: center;
+}
+.shopping-cart {
+  border-radius: 12px;
+  padding: 15px;
+}
+
+.price-regular {
+  font-size: 24px;
+  font-weight: 700; /* bold */
+  color: #c10a0a;
+}
+
+.price-discount {
+  font-size: 18px; /* smaller disc price */
+  color: #1a1a1a; /* different color */
+}
+.add-to-cart-btn {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #2e7d32; /* default green */
+  color: #ffffff;
+  padding: 12px 100px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer; /* default cursor */
+  transition: background-color 0.2s ease;
+}
+
+/* Hover state */
+.add-to-cart-btn:hover {
+  background-color: #1b5e20; /* darker green */
+  cursor: pointer; /* hand cursor */
+}
